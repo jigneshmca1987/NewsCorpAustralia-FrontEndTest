@@ -1,0 +1,36 @@
+/* * {padding:0; margin: 0;} */
+       ul{padding:0}body{margin:0}figure{margin-top:0}ul,li{list-style-type:none}
+        a:hover{opacity: 0.9;}
+        .news_Corp_Australia{width: 600px; clear: both; margin: 10px auto;}
+        .news_Corp_Australia ul.firstBox {display: block; clear: both;        }
+        .news_Corp_Australia ul.firstBox li{ float: left; width: 48%; margin: 10px 3px; border-bottom: 2px solid #eaebec; padding-bottom: 10px; }
+        .news_Corp_Australia .responsive-img{margin: 0 0 5px; position: relative; overflow: hidden; background-color: #eee;}
+        .news_Corp_Australia .responsive-img img{position: relative; top: 0; left: 0; bottom: 0; right: 0; width: 290px; height: 100%; object-fit: contain; display: block;}
+        .news_Corp_Australia h2.title{margin-bottom: 10px;}
+        .news_Corp_Australia h2.title, .news_Corp_Australia h2.title a{color: #202223; text-decoration: none;font:600 calc(12px + 0.8rem)/1.2 Arial, Helvetica, sans-serif; text-transform: uppercase;}
+        .news_Corp_Australia h2.title a:hover{color: #627681;}
+        .news_Corp_Australia h2.title::before{ content:"";  width: 0.8em;  height: 0.8em;  margin-right: 0.2em;  display: inline-block;     background-size: cover;background-image:  url('../images/plus_icon.png'); }
+        .news_Corp_Australia span, .news_Corp_Australia p.intro{color: #606669; font:700 11px/1.3 Arial, Helvetica, sans-serif; margin-bottom: 10px;}
+        .news_Corp_Australia p.intro{padding-bottom: 10px;}
+        .news_Corp_Australia li:first-of-type p.intro span{ color: red; } 
+        .news_Corp_Australia ul.firstBox li:first-of-type{height: 72.3vh; position: relative;}
+        .news_Corp_Australia ul.firstBox li:first-of-type .linkBox {position: absolute; bottom: 0;  }
+        .news_Corp_Australia span { color: blue; text-transform: uppercase; display: inline-block; margin: 0; }
+        .news_Corp_Australia .linkBox a{display: inline-block; margin-right: 7px;} 
+        .news_Corp_Australia .linkBox a img{ display: inline-block; margin-right: 4px; vertical-align: top;}
+        .news_Corp_Australia .linkBox a span{ text-decoration: none; color: #3c4046; letter-spacing: 1px; font:700 10px/1.1 Arial, Helvetica, sans-serif; vertical-align: top;}
+        .news_Corp_Australia ul.secondBox {  width: 48%; float: left; margin: 0; padding: 0;}
+        .news_Corp_Australia ul.secondBox .responsive-img img{ width: 100%; }
+        .news_Corp_Australia ul.secondBox li{width: 100%; display: block; border-bottom: 2px solid #eaebec; padding:7px 0 3px;}
+        .news_Corp_Australia ul.secondBox h2.title, .news_Corp_Australia ul.secondBox h2.title a{ color: #797979; }
+        .news_Corp_Australia ul.secondBox h2.title, .news_Corp_Australia ul.secondBox h2.title a{font:600 calc(10px + 0.3rem)/1.1 Arial, Helvetica, sans-serif; margin: 0 0 10px;}
+        .news_Corp_Australia ul.secondBox h2.title::before{ content:"";  width: 0.8em;  height: 0.8em;  margin-right: 0.2em;  display: inline-block;     background-size: cover; background-image:  url('../images/plus_icon.png'); }
+        .news_Corp_Australia .imgBox{float: right;}
+        .news_Corp_Australia ul.secondBox .linkBox{ padding-top: 14px;}
+@media(max-width:1499px) { }
+@media(max-width:1024px) { .news_Corp_Australia{width: 100%; box-sizing: border-box; padding:0; margin:0;} .news_Corp_Australia ul.firstBox li:first-of-type, .news_Corp_Australia ul.firstBox li{ height: 100%; width: 100%; display: block; box-sizing: border-box;float: none; margin-bottom: 10px;} .news_Corp_Australia ul.firstBox{width: 100%; display: block;} .news_Corp_Australia ul.secondBox{width: 98%;}} 
+@media(max-width:768px) {  }
+@media(max-width:600px) {  }
+@media(max-width:428px) {  }
+@media(max-width:375px) {  }
+@media(max-width:320px) {  }
